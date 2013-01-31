@@ -63,6 +63,19 @@ namespace TestMouse
                  0);
         }
 
+        public static void MouseEvent(MouseEventFlags value, int x, int y)
+        {
+            //mouse_event((int)value, x, y, 0, 0);
+
+            MousePoint position = GetCursorPosition();
+            mouse_event
+                ((int)value,
+                 position.X,
+                 position.Y,
+                 0,
+                 0);
+        }
+
         [StructLayout(LayoutKind.Sequential)]
         public struct MousePoint
         {

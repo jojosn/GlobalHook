@@ -28,6 +28,7 @@ namespace Gma.UserActivityMonitorDemo
             this.textBoxLog = new System.Windows.Forms.TextBox();
             this.labelWheel = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tbSimNum = new System.Windows.Forms.TextBox();
             this.btnSim = new System.Windows.Forms.Button();
             this.btnIncTT = new System.Windows.Forms.Button();
             this.btnRecord = new System.Windows.Forms.Button();
@@ -40,7 +41,6 @@ namespace Gma.UserActivityMonitorDemo
             this.checkBoxOnMouseDown = new System.Windows.Forms.CheckBox();
             this.checkBoxOnMouseClick = new System.Windows.Forms.CheckBox();
             this.checkBoxOnMouseMove = new System.Windows.Forms.CheckBox();
-            this.tbSimNum = new System.Windows.Forms.TextBox();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,6 +102,14 @@ namespace Gma.UserActivityMonitorDemo
             this.groupBox2.Size = new System.Drawing.Size(353, 255);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
+            // 
+            // tbSimNum
+            // 
+            this.tbSimNum.Location = new System.Drawing.Point(105, 217);
+            this.tbSimNum.Name = "tbSimNum";
+            this.tbSimNum.Size = new System.Drawing.Size(120, 21);
+            this.tbSimNum.TabIndex = 10;
+            this.tbSimNum.Text = "1";
             // 
             // btnSim
             // 
@@ -231,13 +239,6 @@ namespace Gma.UserActivityMonitorDemo
             this.checkBoxOnMouseMove.Text = "MouseMove";
             this.checkBoxOnMouseMove.UseVisualStyleBackColor = true;
             this.checkBoxOnMouseMove.CheckedChanged += new System.EventHandler(this.checkBoxOnMouseMove_CheckedChanged);
-            // 
-            // tbSimNum
-            // 
-            this.tbSimNum.Location = new System.Drawing.Point(105, 217);
-            this.tbSimNum.Name = "tbSimNum";
-            this.tbSimNum.Size = new System.Drawing.Size(120, 21);
-            this.tbSimNum.TabIndex = 10;
             // 
             // TestFormStatic
             // 
